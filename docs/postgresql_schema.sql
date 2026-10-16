@@ -13,6 +13,7 @@ CREATE TABLE app_user (
     full_name VARCHAR(160) NOT NULL,
     email VARCHAR(254) NOT NULL UNIQUE,
     password_hash VARCHAR(255) NOT NULL,
+    identity_number VARCHAR(80) NOT NULL DEFAULT '',
     is_active BOOLEAN NOT NULL DEFAULT TRUE,
     last_login_at TIMESTAMPTZ,
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
@@ -44,6 +45,12 @@ CREATE TABLE role_module (
     role_id BIGINT NOT NULL REFERENCES role(role_id) ON DELETE CASCADE,
     module_id BIGINT NOT NULL REFERENCES module(module_id) ON DELETE CASCADE,
     PRIMARY KEY (role_id, module_id)
+);
+
+CREATE TABLE role_access_settings (
+    role_id BIGINT PRIMARY KEY REFERENCES role(role_id) ON DELETE CASCADE,
+    modules JSONB NOT NULL DEFAULT '[]'::jsonb,
+    updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
 CREATE TABLE client (

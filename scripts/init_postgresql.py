@@ -31,6 +31,14 @@ with psycopg.connect(**connection_kwargs) as connection:
         if cursor.fetchone()[0] is None:
             cursor.execute(schema)
         cursor.execute("ALTER TABLE datalan.solicitudes ADD COLUMN IF NOT EXISTS extra_data JSONB NOT NULL DEFAULT '{}'::jsonb")
+        cursor.execute("ALTER TABLE datalan.usuarios ADD COLUMN IF NOT EXISTS identity_number VARCHAR(80) NOT NULL DEFAULT ''")
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS datalan.role_access_settings (
+                role_id BIGINT PRIMARY KEY REFERENCES datalan.roles(role_id) ON DELETE CASCADE,
+                modules JSONB NOT NULL DEFAULT '[]'::jsonb,
+                updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+            )
+        """)
         cursor.execute("""
             INSERT INTO datalan.estados_solicitud (status_key, label, area_key, is_terminal)
             VALUES ('RECHAZADA_COMERCIAL', 'Rechazada por Comercial', 'COMERCIAL', TRUE)
