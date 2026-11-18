@@ -1,0 +1,427 @@
+﻿EJECUCIONES INDIVIDUALES - ITERACION 2 DATALAN
+Fecha: 2026-10-31 (hora local)
+Base de pruebas: datalan_it2_test (PostgreSQL; creada y destruida por Django en las pruebas que usan BD).
+Configuracion: $env:DJANGO_SETTINGS_MODULE='DATALAN.settings_iteration2_test'
+Desde la raiz: Push-Location DATALAN; ..\venv\Scripts\python.exe manage.py test <prueba> --verbosity 2; Pop-Location
+Cada seccion contiene la salida capturada de una invocacion independiente.
+
+================================================================
+Fecha/hora local: 2026-10-31 10:32:14 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_registration_rejects_missing_fields_and_checks_priority_boundaries (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.233s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:18 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_and_eventual_registration_persist_and_reload --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_permanent_and_eventual_registration_persist_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_and_eventual_registration_persist_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.418s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:23 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_approval_preserves_evaluations_and_resolution_note (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.419s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:28 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_rejection_is_persisted_and_blocks_execution (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.226s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:32 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_installation_schedule_submission_approval_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.253s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:38 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_permanent_conclusion_requires_support_approval_for_active_link (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.277s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:43 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review --verbosity 2
+----------------------------------------------------------------
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_eventual_service_stays_open_until_removal_and_final_review (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.284s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:48 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_installation_schedule_derives_priority_from_installation_date --verbosity 2
+----------------------------------------------------------------
+test_installation_schedule_derives_priority_from_installation_date (DATALAN.test_optimization_service.GeneticOptimizationTests.test_installation_schedule_derives_priority_from_installation_date) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.014s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:50 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_schedule_uses_start_date_and_requires_valid_range --verbosity 2
+----------------------------------------------------------------
+test_eventual_schedule_uses_start_date_and_requires_valid_range (DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_schedule_uses_start_date_and_requires_valid_range) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.004s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:52 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_decision_supports_ajax_without_redirect --verbosity 2
+----------------------------------------------------------------
+test_commercial_decision_supports_ajax_without_redirect (DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_decision_supports_ajax_without_redirect) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:54 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_final_approval_overrides_an_area_rejection --verbosity 2
+----------------------------------------------------------------
+test_commercial_final_approval_overrides_an_area_rejection (DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_final_approval_overrides_an_area_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:32:56 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_delivery_stages_go_from_inspection_to_installation_and_conclusion --verbosity 2
+----------------------------------------------------------------
+test_delivery_stages_go_from_inspection_to_installation_and_conclusion (DATALAN.test_optimization_service.GeneticOptimizationTests.test_delivery_stages_go_from_inspection_to_installation_and_conclusion) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.103s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:33:01 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_installation_can_only_finish_after_approved_removal --verbosity 2
+----------------------------------------------------------------
+test_eventual_installation_can_only_finish_after_approved_removal (DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_installation_can_only_finish_after_approved_removal) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.027s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:33:04 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_incident_candidates_require_completed_non_eventual_pp_or_mp --verbosity 2
+----------------------------------------------------------------
+test_incident_candidates_require_completed_non_eventual_pp_or_mp (DATALAN.test_optimization_service.GeneticOptimizationTests.test_incident_candidates_require_completed_non_eventual_pp_or_mp) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:33:06 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_operational_stage_display_tracks_regular_and_eventual_progress --verbosity 2
+----------------------------------------------------------------
+test_operational_stage_display_tracks_regular_and_eventual_progress (DATALAN.test_optimization_service.GeneticOptimizationTests.test_operational_stage_display_tracks_regular_and_eventual_progress) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+================================================================
+Fecha/hora local: 2026-10-31 10:33:08 -04:00
+Comando: ..\venv\Scripts\python.exe manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_request_saves_derived_priority_port_and_dates --verbosity 2
+----------------------------------------------------------------
+test_commercial_request_saves_derived_priority_port_and_dates (DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_request_saves_derived_priority_port_and_dates) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.143s
+
+OK
+Found 1 test(s).
+Skipping setup of unused database(s): default.
+System check identified no issues (0 silenced).
+RETURN_CODE=0

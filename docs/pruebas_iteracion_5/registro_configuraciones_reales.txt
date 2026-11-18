@@ -1,0 +1,8 @@
+﻿DATABASE=datalan_it5_test@127.0.0.1:55439
+saved_genetic= {'population_size': 8, 'generations': 2, 'mutation_percent': 11, 'crossover_percent': 77}
+saved_incident_nsga2= {'population_size': 10, 'generations': 3, 'mutation_percent': 17, 'crossover_percent': 88}
+raw_db_rows= [('genetic', '{"generations": 2, "population_size": 8, "mutation_percent": 11, "crossover_percent": 77}'), ('incident_nsga2', '{"generations": 3, "population_size": 10, "mutation_percent": 17, "crossover_percent": 88}')]
+read_genetic= {'population_size': 40, 'generations': 100, 'mutation_percent': 10, 'crossover_percent': 80}
+read_incident_nsga2= {'population_size': 48, 'generations': 80, 'mutation_percent': 15, 'crossover_percent': 85}
+result= FAIL
+

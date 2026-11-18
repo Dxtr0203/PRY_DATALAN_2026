@@ -1,0 +1,105 @@
+{
+  "fecha_ejecucion": "2026-11-09T14:15:27+00:00",
+  "base_datos": "datalan_tesis_20261109_test",
+  "incidencias": [
+    {
+      "id": "I01",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I02",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I03",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I04",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I05",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I06",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I07",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I08",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I09",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I10",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I11",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    },
+    {
+      "id": "I12",
+      "fecha_prueba_real": "2026-11-09T14:15:27+00:00",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Solo puedes reportar incidencias de servicios PP o MP con instalaci?n y conclusi?n aprobadas.",
+      "http_status": 200
+    }
+  ],
+  "filas_solicitudes_persistidas": 0,
+  "incidencias_persistidas": 0,
+  "cuentas_ficticias": 16,
+  "comprobacion_permisos": {
+    "rol": "tecnico",
+    "intentos": [
+      "/comercial/solicitudes/nueva/",
+      "/sistemas/incidencias/"
+    ],
+    "resultado": "DENEGADO correctamente en ambas rutas",
+    "http": [
+      302,
+      302
+    ]
+  }
+}

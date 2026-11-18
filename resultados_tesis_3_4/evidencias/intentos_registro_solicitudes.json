@@ -1,0 +1,247 @@
+{
+  "fecha_ejecucion": "2026-11-09T13:53:16+00:00",
+  "base_datos": "datalan_tesis_20261109_test",
+  "solicitudes": [
+    {
+      "id": "S01",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S02",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S03",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S04",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S05",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S06",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S07",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S08",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S09",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S10",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S11",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S12",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S13",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S14",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S15",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S16",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S17",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S18",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S19",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S20",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto a Punto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S21",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto Multipunto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S22",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto Multipunto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S23",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto Multipunto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S24",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Punto Multipunto",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S25",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Eventual",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S26",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Eventual",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S27",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Eventual",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S28",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Eventual",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S29",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Eventual",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    },
+    {
+      "id": "S30",
+      "fecha_prueba_real": "2026-11-09T13:53:16+00:00",
+      "tipo_solicitud": "Instalación Eventual",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "La fecha de instalaci?n debe ser igual o posterior a la fecha actual.",
+      "http_status": 200
+    }
+  ],
+  "filas_persistidas": 0
+}

@@ -1,0 +1,16 @@
+Fecha/hora local de ejecuci?n: 2026-10-26 15:22:46-04:00
+Commit Django: 4b3dbbf1f87645f736ddc3432f4d366b79def049
+Pruebas seleccionadas: 21 (Django SimpleTestCase).
+Ejecuci?n focalizada sin los dos fixtures de inspecci?n fechados en el pasado.
+Las pruebas usan fixtures/RequestFactory y mocks de persistencia; no se consult? PostgreSQL ni se abri? el navegador.
+Comando: C:\Users\Dxtr\Desktop\DATALAN\venv\Scripts\python.exe .\DATALAN\manage.py test DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_request_saves_derived_priority_port_and_dates DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_forward_supports_ajax_without_redirect DATALAN.test_optimization_service.GeneticOptimizationTests.test_plant_decision_supports_ajax_without_redirect DATALAN.test_optimization_service.GeneticOptimizationTests.test_systems_decision_supports_ajax_without_redirect DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_decision_supports_ajax_without_redirect DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_rejection_register_stops_after_reception DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_to_plant_to_systems_handoff_is_visible_without_reload DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_schedule_uses_start_date_and_requires_valid_range DATALAN.test_optimization_service.GeneticOptimizationTests.test_systems_manager_assigns_commercially_approved_request_to_support DATALAN.test_optimization_service.GeneticOptimizationTests.test_systems_manager_cannot_assign_same_primary_and_secondary DATALAN.test_optimization_service.GeneticOptimizationTests.test_support_requests_only_shows_requests_assigned_to_signed_in_support DATALAN.test_optimization_service.GeneticOptimizationTests.test_assigned_support_can_assign_available_plant_technician DATALAN.test_optimization_service.GeneticOptimizationTests.test_plant_technician_sees_work_assigned_from_support DATALAN.test_optimization_service.GeneticOptimizationTests.test_delivery_stages_go_from_inspection_to_installation_and_conclusion DATALAN.test_optimization_service.GeneticOptimizationTests.test_technician_cannot_submit_inspection_after_installation_deadline DATALAN.test_optimization_service.GeneticOptimizationTests.test_technician_cannot_resubmit_inspection_while_waiting_for_support DATALAN.test_optimization_service.GeneticOptimizationTests.test_assigned_support_confirms_schedule_and_approves_technician_inspection DATALAN.test_optimization_service.GeneticOptimizationTests.test_assigned_support_can_review_technician_proposal_in_work_modal DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_final_approval_overrides_an_area_rejection DATALAN.test_optimization_service.GeneticOptimizationTests.test_operational_optimization_selects_the_best_compatible_team DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_installation_can_only_finish_after_approved_removal
+RETURN_CODE=0
+
+----- SALIDA CAPTURADA -----
+.....................
+----------------------------------------------------------------------
+Ran 21 tests in 0.185s
+
+OK
+Found 21 test(s).
+System check identified no issues (0 silenced).

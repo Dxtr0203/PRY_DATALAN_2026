@@ -1,0 +1,778 @@
+{
+  "dataset_id": "DATALAN-SIM-20261027-A",
+  "description": "Datos completamente ficticios, creados para esta evaluación. No corresponden a clientes, incidencias ni personal real.",
+  "generated_at": "2026-10-27T09:58:33-04:00",
+  "algorithm_clock_for_incident_assignment": "2026-10-27T08:30:00",
+  "fixed_schedule_for_incident_team": "2026-10-28T10:00:00",
+  "requests": [
+    {
+      "cite": "SIM-REQ-01",
+      "applicant": "Solicitante ficticio 01",
+      "type": "Instalación Punto a Punto",
+      "status": "APROBADA",
+      "priority": "Alta",
+      "requirements": "Instalacion de equipos; medicion OTDR.",
+      "equipment_enabled": true,
+      "equipment_type": "SFP",
+      "speed": "1 Gbps",
+      "destination": "Nodo SIM 01",
+      "destination_location": "Norte",
+      "plant_evaluation": {
+        "distance": "10",
+        "estimated_hours": 2.0
+      },
+      "estimated_hours": 2.0
+    },
+    {
+      "cite": "SIM-REQ-02",
+      "applicant": "Solicitante ficticio 02",
+      "type": "Instalación Punto a Punto",
+      "status": "APROBADA",
+      "priority": "Media",
+      "requirements": "Fusiones de fibra y empalmes.",
+      "equipment_enabled": false,
+      "equipment_type": "SFP",
+      "speed": "1 Gbps",
+      "destination": "Nodo SIM 02",
+      "destination_location": "Sur",
+      "plant_evaluation": {
+        "distance": "12",
+        "estimated_hours": 2.5
+      },
+      "estimated_hours": 2.5
+    },
+    {
+      "cite": "SIM-REQ-03",
+      "applicant": "Solicitante ficticio 03",
+      "type": "Instalación Punto a Punto",
+      "status": "APROBADA",
+      "priority": "Baja",
+      "requirements": "Tendido de cable aereo.",
+      "equipment_enabled": false,
+      "equipment_type": "SFP",
+      "speed": "1 Gbps",
+      "destination": "Nodo SIM 03",
+      "destination_location": "Centro",
+      "plant_evaluation": {
+        "distance": "14",
+        "estimated_hours": 3.0
+      },
+      "estimated_hours": 3.0
+    },
+    {
+      "cite": "SIM-REQ-04",
+      "applicant": "Solicitante ficticio 04",
+      "type": "Instalación Punto a Punto",
+      "status": "APROBADA",
+      "priority": "Alta",
+      "requirements": "Tendido subterraneo y mediciones OTDR.",
+      "equipment_enabled": false,
+      "equipment_type": "SFP",
+      "speed": "1 Gbps",
+      "destination": "Nodo SIM 04",
+      "destination_location": "Norte",
+      "plant_evaluation": {
+        "distance": "16",
+        "estimated_hours": 3.5
+      },
+      "estimated_hours": 3.5
+    },
+    {
+      "cite": "SIM-REQ-05",
+      "applicant": "Solicitante ficticio 05",
+      "type": "Instalación Punto a Punto",
+      "status": "APROBADA",
+      "priority": "Media",
+      "requirements": "Instalacion de equipos y fusion de fibra.",
+      "equipment_enabled": true,
+      "equipment_type": "SFP",
+      "speed": "1 Gbps",
+      "destination": "Nodo SIM 05",
+      "destination_location": "Sur",
+      "plant_evaluation": {
+        "distance": "18",
+        "estimated_hours": 4.0
+      },
+      "estimated_hours": 4.0
+    },
+    {
+      "cite": "SIM-REQ-06",
+      "applicant": "Solicitante ficticio 06",
+      "type": "Instalación Punto a Punto",
+      "status": "APROBADA",
+      "priority": "Baja",
+      "requirements": "Verificacion OTDR y reemplazo de equipos.",
+      "equipment_enabled": true,
+      "equipment_type": "SFP",
+      "speed": "1 Gbps",
+      "destination": "Nodo SIM 06",
+      "destination_location": "Centro",
+      "plant_evaluation": {
+        "distance": "20",
+        "estimated_hours": 4.5
+      },
+      "estimated_hours": 4.5
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "SIM-INC-01",
+      "incident_parent_cite": "SIM-REQ-01",
+      "incident_client": "Solicitante ficticio 01",
+      "incident_status": "PENDIENTE DE ASIGNACIÓN",
+      "incident_reported_at": "26/10/2026 07:30",
+      "incident_description": "Intermitencia del enlace y perdida de senal; revisar mediciones.",
+      "severity": "ALTA"
+    },
+    {
+      "incident_id": "SIM-INC-02",
+      "incident_parent_cite": "SIM-REQ-02",
+      "incident_client": "Solicitante ficticio 02",
+      "incident_status": "PENDIENTE DE ASIGNACIÓN",
+      "incident_reported_at": "25/10/2026 07:30",
+      "incident_description": "Alarma OTDR y atenuacion detectada en el enlace.",
+      "severity": "MEDIA"
+    },
+    {
+      "incident_id": "SIM-INC-03",
+      "incident_parent_cite": "SIM-REQ-03",
+      "incident_client": "Solicitante ficticio 03",
+      "incident_status": "PENDIENTE DE ASIGNACIÓN",
+      "incident_reported_at": "24/10/2026 07:30",
+      "incident_description": "Empalme de fibra danado; requiere fusion y reparacion.",
+      "severity": "ALTA"
+    },
+    {
+      "incident_id": "SIM-INC-04",
+      "incident_parent_cite": "SIM-REQ-04",
+      "incident_client": "Solicitante ficticio 04",
+      "incident_status": "PENDIENTE DE ASIGNACIÓN",
+      "incident_reported_at": "23/10/2026 07:30",
+      "incident_description": "Cable de enlace cortado; diagnosticar y reparar el tramo.",
+      "severity": "MEDIA"
+    },
+    {
+      "incident_id": "SIM-INC-05",
+      "incident_parent_cite": "SIM-REQ-05",
+      "incident_client": "Solicitante ficticio 05",
+      "incident_status": "PENDIENTE DE ASIGNACIÓN",
+      "incident_reported_at": "22/10/2026 07:30",
+      "incident_description": "Equipo de transmision falla; verificar y sustituir si corresponde.",
+      "severity": "BAJA"
+    },
+    {
+      "incident_id": "SIM-INC-06",
+      "incident_parent_cite": "SIM-REQ-06",
+      "incident_client": "Solicitante ficticio 06",
+      "incident_status": "PENDIENTE DE ASIGNACIÓN",
+      "incident_reported_at": "21/10/2026 07:30",
+      "incident_description": "Intermitencia; verificar enlace y registrar la resolucion.",
+      "severity": "BAJA"
+    }
+  ],
+  "technicians": [
+    {
+      "technician_id": "SIM-TEC-01",
+      "full_name": "Tecnico SIM 01",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 0,
+      "current_location": "Centro",
+      "travel_distance_km": 3.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 2,
+        "experience_months": 0,
+        "lead_installation": "SI",
+        "lead_removal": "NO",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "SIN_APOYO",
+            "identify_access_difficulties": "CON_APOYO",
+            "estimate_fiber_quantity": "CON_APOYO",
+            "identify_materials_tools": "SIN_APOYO",
+            "record_photos_measurements": "CON_APOYO",
+            "prepare_inspection_report": "CON_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "CON_APOYO",
+            "prepare_cable_connections": "CON_APOYO",
+            "perform_fusions": "SIN_APOYO",
+            "protect_splices": "CON_APOYO",
+            "use_otdr": "CON_APOYO",
+            "interpret_measurements": "SIN_APOYO",
+            "install_connect_equipment": "CON_APOYO",
+            "test_link_with_support": "CON_APOYO",
+            "record_materials_results": "SIN_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "CON_APOYO",
+            "disconnect_with_support": "SIN_APOYO",
+            "dismantle_equipment": "CON_APOYO",
+            "remove_cable_accessories": "CON_APOYO",
+            "inspect_recovered_material": "SIN_APOYO",
+            "record_removed_equipment": "CON_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "08:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "NO",
+        "capabilities": {
+          "diagnose_link_faults": "SIN_APOYO",
+          "interpret_signal_measurements": "CON_APOYO",
+          "repair_damaged_cable": "SIN_APOYO",
+          "repair_splices_connections": "CON_APOYO",
+          "replace_equipment": "SIN_APOYO",
+          "verify_link_with_support": "CON_APOYO",
+          "record_incident_resolution": "SIN_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-02",
+      "full_name": "Tecnico SIM 02",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 1,
+      "current_location": "Norte",
+      "travel_distance_km": 5.5,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 4,
+        "experience_months": 1,
+        "lead_installation": "NO",
+        "lead_removal": "SI",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "CON_APOYO",
+            "identify_access_difficulties": "CON_APOYO",
+            "estimate_fiber_quantity": "SIN_APOYO",
+            "identify_materials_tools": "CON_APOYO",
+            "record_photos_measurements": "CON_APOYO",
+            "prepare_inspection_report": "SIN_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "CON_APOYO",
+            "prepare_cable_connections": "SIN_APOYO",
+            "perform_fusions": "CON_APOYO",
+            "protect_splices": "CON_APOYO",
+            "use_otdr": "SIN_APOYO",
+            "interpret_measurements": "CON_APOYO",
+            "install_connect_equipment": "CON_APOYO",
+            "test_link_with_support": "SIN_APOYO",
+            "record_materials_results": "CON_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "SIN_APOYO",
+            "disconnect_with_support": "CON_APOYO",
+            "dismantle_equipment": "CON_APOYO",
+            "remove_cable_accessories": "SIN_APOYO",
+            "inspect_recovered_material": "CON_APOYO",
+            "record_removed_equipment": "CON_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "08:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "SI",
+        "capabilities": {
+          "diagnose_link_faults": "CON_APOYO",
+          "interpret_signal_measurements": "SIN_APOYO",
+          "repair_damaged_cable": "CON_APOYO",
+          "repair_splices_connections": "SIN_APOYO",
+          "replace_equipment": "CON_APOYO",
+          "verify_link_with_support": "SIN_APOYO",
+          "record_incident_resolution": "CON_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-03",
+      "full_name": "Tecnico SIM 03",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 2,
+      "current_location": "Sur",
+      "travel_distance_km": 8.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 6,
+        "experience_months": 2,
+        "lead_installation": "NO",
+        "lead_removal": "NO",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "CON_APOYO",
+            "identify_access_difficulties": "SIN_APOYO",
+            "estimate_fiber_quantity": "CON_APOYO",
+            "identify_materials_tools": "CON_APOYO",
+            "record_photos_measurements": "SIN_APOYO",
+            "prepare_inspection_report": "CON_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "SIN_APOYO",
+            "prepare_cable_connections": "CON_APOYO",
+            "perform_fusions": "CON_APOYO",
+            "protect_splices": "SIN_APOYO",
+            "use_otdr": "CON_APOYO",
+            "interpret_measurements": "CON_APOYO",
+            "install_connect_equipment": "SIN_APOYO",
+            "test_link_with_support": "CON_APOYO",
+            "record_materials_results": "CON_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "CON_APOYO",
+            "disconnect_with_support": "CON_APOYO",
+            "dismantle_equipment": "SIN_APOYO",
+            "remove_cable_accessories": "CON_APOYO",
+            "inspect_recovered_material": "CON_APOYO",
+            "record_removed_equipment": "SIN_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "09:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "NO",
+        "capabilities": {
+          "diagnose_link_faults": "SIN_APOYO",
+          "interpret_signal_measurements": "CON_APOYO",
+          "repair_damaged_cable": "SIN_APOYO",
+          "repair_splices_connections": "CON_APOYO",
+          "replace_equipment": "SIN_APOYO",
+          "verify_link_with_support": "CON_APOYO",
+          "record_incident_resolution": "SIN_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-04",
+      "full_name": "Tecnico SIM 04",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 3,
+      "current_location": "Este",
+      "travel_distance_km": 11.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 8,
+        "experience_months": 3,
+        "lead_installation": "SI",
+        "lead_removal": "NO",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "SIN_APOYO",
+            "identify_access_difficulties": "CON_APOYO",
+            "estimate_fiber_quantity": "CON_APOYO",
+            "identify_materials_tools": "SIN_APOYO",
+            "record_photos_measurements": "CON_APOYO",
+            "prepare_inspection_report": "CON_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "CON_APOYO",
+            "prepare_cable_connections": "CON_APOYO",
+            "perform_fusions": "SIN_APOYO",
+            "protect_splices": "CON_APOYO",
+            "use_otdr": "CON_APOYO",
+            "interpret_measurements": "SIN_APOYO",
+            "install_connect_equipment": "CON_APOYO",
+            "test_link_with_support": "CON_APOYO",
+            "record_materials_results": "SIN_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "CON_APOYO",
+            "disconnect_with_support": "SIN_APOYO",
+            "dismantle_equipment": "CON_APOYO",
+            "remove_cable_accessories": "CON_APOYO",
+            "inspect_recovered_material": "SIN_APOYO",
+            "record_removed_equipment": "CON_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "09:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "NO",
+        "capabilities": {
+          "diagnose_link_faults": "CON_APOYO",
+          "interpret_signal_measurements": "SIN_APOYO",
+          "repair_damaged_cable": "CON_APOYO",
+          "repair_splices_connections": "SIN_APOYO",
+          "replace_equipment": "CON_APOYO",
+          "verify_link_with_support": "SIN_APOYO",
+          "record_incident_resolution": "CON_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-05",
+      "full_name": "Tecnico SIM 05",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 0,
+      "current_location": "Centro",
+      "travel_distance_km": 14.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 10,
+        "experience_months": 4,
+        "lead_installation": "NO",
+        "lead_removal": "SI",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "CON_APOYO",
+            "identify_access_difficulties": "CON_APOYO",
+            "estimate_fiber_quantity": "SIN_APOYO",
+            "identify_materials_tools": "CON_APOYO",
+            "record_photos_measurements": "CON_APOYO",
+            "prepare_inspection_report": "SIN_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "CON_APOYO",
+            "prepare_cable_connections": "SIN_APOYO",
+            "perform_fusions": "CON_APOYO",
+            "protect_splices": "CON_APOYO",
+            "use_otdr": "SIN_APOYO",
+            "interpret_measurements": "CON_APOYO",
+            "install_connect_equipment": "CON_APOYO",
+            "test_link_with_support": "SIN_APOYO",
+            "record_materials_results": "CON_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "SIN_APOYO",
+            "disconnect_with_support": "CON_APOYO",
+            "dismantle_equipment": "CON_APOYO",
+            "remove_cable_accessories": "SIN_APOYO",
+            "inspect_recovered_material": "CON_APOYO",
+            "record_removed_equipment": "CON_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "10:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "SI",
+        "capabilities": {
+          "diagnose_link_faults": "SIN_APOYO",
+          "interpret_signal_measurements": "CON_APOYO",
+          "repair_damaged_cable": "SIN_APOYO",
+          "repair_splices_connections": "CON_APOYO",
+          "replace_equipment": "SIN_APOYO",
+          "verify_link_with_support": "CON_APOYO",
+          "record_incident_resolution": "SIN_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-06",
+      "full_name": "Tecnico SIM 06",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 1,
+      "current_location": "Norte",
+      "travel_distance_km": 17.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 12,
+        "experience_months": 5,
+        "lead_installation": "NO",
+        "lead_removal": "NO",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "CON_APOYO",
+            "identify_access_difficulties": "SIN_APOYO",
+            "estimate_fiber_quantity": "CON_APOYO",
+            "identify_materials_tools": "CON_APOYO",
+            "record_photos_measurements": "SIN_APOYO",
+            "prepare_inspection_report": "CON_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "SIN_APOYO",
+            "prepare_cable_connections": "CON_APOYO",
+            "perform_fusions": "CON_APOYO",
+            "protect_splices": "SIN_APOYO",
+            "use_otdr": "CON_APOYO",
+            "interpret_measurements": "CON_APOYO",
+            "install_connect_equipment": "SIN_APOYO",
+            "test_link_with_support": "CON_APOYO",
+            "record_materials_results": "CON_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "CON_APOYO",
+            "disconnect_with_support": "CON_APOYO",
+            "dismantle_equipment": "SIN_APOYO",
+            "remove_cable_accessories": "CON_APOYO",
+            "inspect_recovered_material": "CON_APOYO",
+            "record_removed_equipment": "SIN_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "10:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "NO",
+        "capabilities": {
+          "diagnose_link_faults": "CON_APOYO",
+          "interpret_signal_measurements": "SIN_APOYO",
+          "repair_damaged_cable": "CON_APOYO",
+          "repair_splices_connections": "SIN_APOYO",
+          "replace_equipment": "CON_APOYO",
+          "verify_link_with_support": "SIN_APOYO",
+          "record_incident_resolution": "CON_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-07",
+      "full_name": "Tecnico SIM 07",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 2,
+      "current_location": "Sur",
+      "travel_distance_km": 20.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 14,
+        "experience_months": 6,
+        "lead_installation": "SI",
+        "lead_removal": "NO",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "SIN_APOYO",
+            "identify_access_difficulties": "CON_APOYO",
+            "estimate_fiber_quantity": "CON_APOYO",
+            "identify_materials_tools": "SIN_APOYO",
+            "record_photos_measurements": "CON_APOYO",
+            "prepare_inspection_report": "CON_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "CON_APOYO",
+            "prepare_cable_connections": "CON_APOYO",
+            "perform_fusions": "SIN_APOYO",
+            "protect_splices": "CON_APOYO",
+            "use_otdr": "CON_APOYO",
+            "interpret_measurements": "SIN_APOYO",
+            "install_connect_equipment": "CON_APOYO",
+            "test_link_with_support": "CON_APOYO",
+            "record_materials_results": "SIN_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "CON_APOYO",
+            "disconnect_with_support": "SIN_APOYO",
+            "dismantle_equipment": "CON_APOYO",
+            "remove_cable_accessories": "CON_APOYO",
+            "inspect_recovered_material": "SIN_APOYO",
+            "record_removed_equipment": "CON_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "11:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "SI",
+        "capabilities": {
+          "diagnose_link_faults": "SIN_APOYO",
+          "interpret_signal_measurements": "CON_APOYO",
+          "repair_damaged_cable": "SIN_APOYO",
+          "repair_splices_connections": "CON_APOYO",
+          "replace_equipment": "SIN_APOYO",
+          "verify_link_with_support": "CON_APOYO",
+          "record_incident_resolution": "SIN_APOYO"
+        }
+      }
+    },
+    {
+      "technician_id": "SIM-TEC-08",
+      "full_name": "Tecnico SIM 08",
+      "staff_type": "TÉCNICO",
+      "available": true,
+      "workload": 3,
+      "current_location": "Este",
+      "travel_distance_km": 24.0,
+      "operational_profile": {
+        "operational_status": "ACTIVO",
+        "experience_years": 16,
+        "experience_months": 7,
+        "lead_installation": "NO",
+        "lead_removal": "SI",
+        "capabilities": {
+          "inspection": {
+            "review_site_route": "CON_APOYO",
+            "identify_access_difficulties": "CON_APOYO",
+            "estimate_fiber_quantity": "SIN_APOYO",
+            "identify_materials_tools": "CON_APOYO",
+            "record_photos_measurements": "CON_APOYO",
+            "prepare_inspection_report": "SIN_APOYO"
+          },
+          "installation": {
+            "lay_fiber_cable": "CON_APOYO",
+            "prepare_cable_connections": "SIN_APOYO",
+            "perform_fusions": "CON_APOYO",
+            "protect_splices": "CON_APOYO",
+            "use_otdr": "SIN_APOYO",
+            "interpret_measurements": "CON_APOYO",
+            "install_connect_equipment": "CON_APOYO",
+            "test_link_with_support": "SIN_APOYO",
+            "record_materials_results": "CON_APOYO"
+          },
+          "removal": {
+            "identify_authorized_items": "SIN_APOYO",
+            "disconnect_with_support": "CON_APOYO",
+            "dismantle_equipment": "CON_APOYO",
+            "remove_cable_accessories": "SIN_APOYO",
+            "inspect_recovered_material": "CON_APOYO",
+            "record_removed_equipment": "CON_APOYO"
+          }
+        },
+        "work_days": [
+          "LUNES",
+          "MARTES",
+          "MIERCOLES",
+          "JUEVES",
+          "VIERNES"
+        ],
+        "work_start": "12:00",
+        "work_end": "18:00",
+        "absences": []
+      },
+      "incident_profile": {
+        "lead_incidents": "NO",
+        "capabilities": {
+          "diagnose_link_faults": "CON_APOYO",
+          "interpret_signal_measurements": "SIN_APOYO",
+          "repair_damaged_cable": "CON_APOYO",
+          "repair_splices_connections": "SIN_APOYO",
+          "replace_equipment": "CON_APOYO",
+          "verify_link_with_support": "SIN_APOYO",
+          "record_incident_resolution": "CON_APOYO"
+        }
+      }
+    }
+  ],
+  "active_request_items_for_load_context": [
+    {
+      "cite": "SIM-ACTIVE-01",
+      "status": "EN EJECUCIÓN",
+      "assignment": {
+        "leader": "Tecnico SIM 03",
+        "others": []
+      }
+    },
+    {
+      "cite": "SIM-ACTIVE-02",
+      "status": "EN EJECUCIÓN",
+      "assignment": {
+        "leader": "Tecnico SIM 05",
+        "others": []
+      }
+    },
+    {
+      "cite": "SIM-ACTIVE-03",
+      "status": "EN EJECUCIÓN",
+      "assignment": {
+        "leader": "Tecnico SIM 07",
+        "others": []
+      }
+    },
+    {
+      "cite": "SIM-ACTIVE-04",
+      "status": "EN EJECUCIÓN",
+      "assignment": {
+        "leader": "Tecnico SIM 01",
+        "others": []
+      }
+    }
+  ],
+  "fixed_schedule_team_target": {
+    "cite": "SIM-REQ-05",
+    "applicant": "Solicitante ficticio 05",
+    "type": "Instalación Punto a Punto",
+    "status": "APROBADA",
+    "priority": "Media",
+    "requirements": "Instalacion de equipos y fusion de fibra.",
+    "equipment_enabled": true,
+    "equipment_type": "SFP",
+    "speed": "1 Gbps",
+    "destination": "Nodo SIM 05",
+    "destination_location": "Sur",
+    "plant_evaluation": {
+      "distance": "18",
+      "estimated_hours": 4.0
+    },
+    "estimated_hours": 4.0,
+    "delivery_workflow": {
+      "installation": {
+        "status": "ENVIADA",
+        "points": {
+          "destination": {
+            "date": "2026-10-28",
+            "time": "10:00",
+            "description": "Instalacion ficticia para evaluar equipo."
+          }
+        },
+        "work_descriptions": {
+          "destination": "Instalacion ficticia para evaluar equipo."
+        }
+      }
+    }
+  }
+}

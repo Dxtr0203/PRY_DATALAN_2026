@@ -1,0 +1,677 @@
+﻿DATALAN - ITERACION 2
+SALIDAS COMPLETAS DE CONSOLA, INDIVIDUALES POR PUNTO
+Fecha de reejecucion: 2026-10-31 10:44:26 -04:00
+Cada apartado corresponde a una ejecucion nueva del comando individual del punto.
+
+================================================================
+CAPTURA INDIVIDUAL: P2-01
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:26 -04:00
+PUNTO: P2-01
+COMPROBACION: Rechazo de registro cuando falta un campo obligatorio.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_registration_rejects_missing_fields_and_checks_priority_boundaries (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.144s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-02
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:31 -04:00
+PUNTO: P2-02
+COMPROBACION: Guardado y consulta posterior de solicitudes permanentes y eventuales.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_and_eventual_registration_persist_and_reload --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_permanent_and_eventual_registration_persist_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_and_eventual_registration_persist_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.206s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-03
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:35 -04:00
+PUNTO: P2-03
+COMPROBACION: Prioridad en los limites de 0, 3, 4, 7 y 8 dias.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_registration_rejects_missing_fields_and_checks_priority_boundaries (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.165s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-06-EVAL
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:39 -04:00
+PUNTO: P2-06-EVAL
+COMPROBACION: Conservacion de evaluaciones de Planta Tecnica y Sistemas.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_approval_preserves_evaluations_and_resolution_note (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.155s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-06-DECISION
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:43 -04:00
+PUNTO: P2-06-DECISION
+COMPROBACION: Registro de la decision final de aprobacion o rechazo comercial.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 2 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_approval_preserves_evaluations_and_resolution_note (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note) ... ok
+test_commercial_rejection_is_persisted_and_blocks_execution (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.169s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-06-BLOQUEO
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:47 -04:00
+PUNTO: P2-06-BLOQUEO
+COMPROBACION: Una solicitud rechazada no avanza a la asignacion tecnica.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_rejection_is_persisted_and_blocks_execution (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.172s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-07
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:51 -04:00
+PUNTO: P2-07
+COMPROBACION: Conservacion de la observacion original y la explicacion comercial.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_approval_preserves_evaluations_and_resolution_note (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.155s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-10
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:55 -04:00
+PUNTO: P2-10
+COMPROBACION: Registro del cronograma tentativo asociado a solicitud y actividad.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_installation_schedule_submission_approval_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.167s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-11
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:44:59 -04:00
+PUNTO: P2-11
+COMPROBACION: Diferencia entre horario tentativo y aprobado; conservacion y recarga.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_installation_schedule_submission_approval_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.168s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-13-ENVIO-PERMANENTE
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:45:03 -04:00
+PUNTO: P2-13-ENVIO-PERMANENTE
+COMPROBACION: Enviar la conclusion permanente no la aprueba automaticamente.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_permanent_conclusion_requires_support_approval_for_active_link (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.306s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-13-ENVIO-EVENTUAL
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:45:10 -04:00
+PUNTO: P2-13-ENVIO-EVENTUAL
+COMPROBACION: Enviar la conclusion eventual no la aprueba automaticamente.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_eventual_service_stays_open_until_removal_and_final_review (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.301s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-13-ACTIVO
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:45:16 -04:00
+PUNTO: P2-13-ACTIVO
+COMPROBACION: Aprobar conclusion permanente finaliza la solicitud y muestra el enlace activo.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_permanent_conclusion_requires_support_approval_for_active_link (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.240s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-15
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:45:21 -04:00
+PUNTO: P2-15
+COMPROBACION: La solicitud eventual conserva su periodo y deja pendiente el retiro.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_eventual_service_stays_open_until_removal_and_final_review (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.213s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0
+
+================================================================
+CAPTURA INDIVIDUAL: P2-16-17
+----------------------------------------------------------------
+FECHA: 2026-10-31 10:45:26 -04:00
+PUNTO: P2-16-17
+COMPROBACION: La aprobacion del retiro permite aprobar la conclusion eventual.
+TIPO: Prueba de integracion PostgreSQL con base exclusiva datalan_it2_test.
+COMANDO: ..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review --verbosity 2
+----- SALIDA REAL DE DJANGO -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 1 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_eventual_service_stays_open_until_removal_and_final_review (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.248s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+RETURN_CODE=0

@@ -1,0 +1,4 @@
+﻿DATALAN - SALIDAS DE TERMINAL POR PUNTO P2
+Reejecucion individual: 2026-10-31 10:42:58 -04:00
+Cada bloque es una invocacion independiente del runner por punto.
+

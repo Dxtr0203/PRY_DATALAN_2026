@@ -1,0 +1,2207 @@
+{
+  "fecha_ejecucion": "2026-11-09T10:11:38-04:00",
+  "base_datos": "datalan_tesis_20261109_test",
+  "notas": [
+    "Ejecuciones directas de las funciones de servicio con casos sint?ticos; no representan una transici?n guardada del flujo web.",
+    "Los estados y horarios entregados fueron entradas del algoritmo en memoria, no cambios de estado persistidos ni reloj del sistema."
+  ],
+  "ejecuciones": [
+    {
+      "modalidad": "asignacion_solicitudes",
+      "ejecucion": 1,
+      "inicio_real": "2026-11-09T10:09:41-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 40,
+        "generations": 100,
+        "mutation_percent": 10,
+        "crossover_percent": 80,
+        "random_seed": 701
+      },
+      "tiempo_calculo_ms": 41163.729,
+      "casos": 30,
+      "candidatos_tecnicos": 9,
+      "alternativas": [
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S22",
+            "S23",
+            "S24"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        },
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S22",
+            "S24",
+            "S23"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        },
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S24",
+            "S23",
+            "S22"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        }
+      ],
+      "generaciones_ejecutadas": 100,
+      "alternativas_con_tecnico_ausente_08": 3,
+      "recomendaciones_sin_validacion_de_horario": true
+    },
+    {
+      "modalidad": "asignacion_solicitudes",
+      "ejecucion": 2,
+      "inicio_real": "2026-11-09T10:10:22-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 40,
+        "generations": 100,
+        "mutation_percent": 10,
+        "crossover_percent": 80,
+        "random_seed": 702
+      },
+      "tiempo_calculo_ms": 40096.397,
+      "casos": 30,
+      "candidatos_tecnicos": 9,
+      "alternativas": [
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S22",
+            "S23",
+            "S24"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        },
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S24",
+            "S23",
+            "S22"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        },
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S22",
+            "S21",
+            "S23",
+            "S24"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        }
+      ],
+      "generaciones_ejecutadas": 100,
+      "alternativas_con_tecnico_ausente_08": 3,
+      "recomendaciones_sin_validacion_de_horario": true
+    },
+    {
+      "modalidad": "asignacion_solicitudes",
+      "ejecucion": 3,
+      "inicio_real": "2026-11-09T10:11:02-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 40,
+        "generations": 100,
+        "mutation_percent": 10,
+        "crossover_percent": 80,
+        "random_seed": 703
+      },
+      "tiempo_calculo_ms": 31904.909,
+      "casos": 30,
+      "candidatos_tecnicos": 9,
+      "alternativas": [
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S22",
+            "S23",
+            "S24"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        },
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S23",
+            "S22",
+            "S24"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        },
+        {
+          "puntuacion": 71.84,
+          "cobertura_pct": 100.0,
+          "sin_tecnico": 0,
+          "orden": [
+            "S01",
+            "S04",
+            "S08",
+            "S13",
+            "S02",
+            "S03",
+            "S05",
+            "S06",
+            "S07",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S14",
+            "S15",
+            "S16",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S25",
+            "S26",
+            "S27",
+            "S28",
+            "S29",
+            "S30",
+            "S21",
+            "S24",
+            "S23",
+            "S22"
+          ],
+          "incluyo_tecnico_ausente_08": true
+        }
+      ],
+      "generaciones_ejecutadas": 100,
+      "alternativas_con_tecnico_ausente_08": 3,
+      "recomendaciones_sin_validacion_de_horario": true
+    },
+    {
+      "modalidad": "equipos_solicitudes",
+      "ejecucion": 1,
+      "inicio_real": "2026-11-09T10:11:34-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 40,
+        "generations": 100,
+        "mutation_percent": 10,
+        "crossover_percent": 80,
+        "random_seed": 801,
+        "etapa": "installation",
+        "fecha_hora_escenario": "2026-10-02 10:00",
+        "solicitud": "S01",
+        "ocupacion_sintetica": "Tecnicos 01 y 02 10:00-12:00"
+      },
+      "tiempo_calculo_ms": 783.011,
+      "candidatos_compatibles": 6,
+      "tamano_recomendado": 4,
+      "tamano_equipo": 4,
+      "alternativas": [
+        {
+          "puntuacion": 90.47,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 66.9,
+          "score_carga": 100.0,
+          "score_distancia": 8.7
+        },
+        {
+          "puntuacion": 90.08,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 64.2,
+          "score_carga": 100.0,
+          "score_distancia": 9.1
+        },
+        {
+          "puntuacion": 89.69,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 61.5,
+          "score_carga": 100.0,
+          "score_distancia": 9.5
+        }
+      ],
+      "incluyo_ausente_08": false,
+      "incluyo_ocupados_01_02": false,
+      "modo": "genetic",
+      "generaciones_ejecutadas": 100,
+      "alternativas_que_usan_tecnicos_ocupados_01_02": 0
+    },
+    {
+      "modalidad": "equipos_solicitudes",
+      "ejecucion": 2,
+      "inicio_real": "2026-11-09T10:11:35-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 40,
+        "generations": 100,
+        "mutation_percent": 10,
+        "crossover_percent": 80,
+        "random_seed": 802,
+        "etapa": "installation",
+        "fecha_hora_escenario": "2026-10-02 10:00",
+        "solicitud": "S01",
+        "ocupacion_sintetica": "Tecnicos 01 y 02 10:00-12:00"
+      },
+      "tiempo_calculo_ms": 835.116,
+      "candidatos_compatibles": 6,
+      "tamano_recomendado": 4,
+      "tamano_equipo": 4,
+      "alternativas": [
+        {
+          "puntuacion": 90.47,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 66.9,
+          "score_carga": 100.0,
+          "score_distancia": 8.7
+        },
+        {
+          "puntuacion": 90.08,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 64.2,
+          "score_carga": 100.0,
+          "score_distancia": 9.1
+        },
+        {
+          "puntuacion": 89.69,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 61.5,
+          "score_carga": 100.0,
+          "score_distancia": 9.5
+        }
+      ],
+      "incluyo_ausente_08": false,
+      "incluyo_ocupados_01_02": false,
+      "modo": "genetic",
+      "generaciones_ejecutadas": 100,
+      "alternativas_que_usan_tecnicos_ocupados_01_02": 0
+    },
+    {
+      "modalidad": "equipos_solicitudes",
+      "ejecucion": 3,
+      "inicio_real": "2026-11-09T10:11:35-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 40,
+        "generations": 100,
+        "mutation_percent": 10,
+        "crossover_percent": 80,
+        "random_seed": 803,
+        "etapa": "installation",
+        "fecha_hora_escenario": "2026-10-02 10:00",
+        "solicitud": "S01",
+        "ocupacion_sintetica": "Tecnicos 01 y 02 10:00-12:00"
+      },
+      "tiempo_calculo_ms": 922.686,
+      "candidatos_compatibles": 6,
+      "tamano_recomendado": 4,
+      "tamano_equipo": 4,
+      "alternativas": [
+        {
+          "puntuacion": 90.47,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 66.9,
+          "score_carga": 100.0,
+          "score_distancia": 8.7
+        },
+        {
+          "puntuacion": 90.08,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 64.2,
+          "score_carga": 100.0,
+          "score_distancia": 9.1
+        },
+        {
+          "puntuacion": 89.69,
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ],
+          "score_capacidad": 100.0,
+          "score_liderazgo": 100.0,
+          "score_experiencia": 61.5,
+          "score_carga": 100.0,
+          "score_distancia": 9.5
+        }
+      ],
+      "incluyo_ausente_08": false,
+      "incluyo_ocupados_01_02": false,
+      "modo": "genetic",
+      "generaciones_ejecutadas": 100,
+      "alternativas_que_usan_tecnicos_ocupados_01_02": 0
+    },
+    {
+      "modalidad": "asignacion_incidencias",
+      "ejecucion": 1,
+      "inicio_real": "2026-11-09T10:11:36-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 48,
+        "generations": 80,
+        "mutation_percent": 15,
+        "crossover_percent": 85,
+        "random_seed": 901,
+        "fecha_hora_base": "2026-10-01 08:00"
+      },
+      "tiempo_calculo_ms": 246.598,
+      "incidencias": 12,
+      "tecnicos_elegibles": 9,
+      "pareto_size": 48,
+      "alternativas": [
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06"
+          ]
+        },
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05"
+          ]
+        },
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05"
+          ]
+        }
+      ],
+      "generaciones_ejecutadas": 80,
+      "incluye_tecnico_ausente_08": false
+    },
+    {
+      "modalidad": "asignacion_incidencias",
+      "ejecucion": 2,
+      "inicio_real": "2026-11-09T10:11:37-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 48,
+        "generations": 80,
+        "mutation_percent": 15,
+        "crossover_percent": 85,
+        "random_seed": 902,
+        "fecha_hora_base": "2026-10-01 08:00"
+      },
+      "tiempo_calculo_ms": 249.829,
+      "incidencias": 12,
+      "tecnicos_elegibles": 9,
+      "pareto_size": 48,
+      "alternativas": [
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06"
+          ]
+        },
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ]
+        }
+      ],
+      "generaciones_ejecutadas": 80,
+      "incluye_tecnico_ausente_08": false
+    },
+    {
+      "modalidad": "asignacion_incidencias",
+      "ejecucion": 3,
+      "inicio_real": "2026-11-09T10:11:37-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 48,
+        "generations": 80,
+        "mutation_percent": 15,
+        "crossover_percent": 85,
+        "random_seed": 903,
+        "fecha_hora_base": "2026-10-01 08:00"
+      },
+      "tiempo_calculo_ms": 257.718,
+      "incidencias": 12,
+      "tecnicos_elegibles": 9,
+      "pareto_size": 48,
+      "alternativas": [
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 04",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "espera_ponderada_h": 0.0,
+          "desequilibrio_carga": 6.0,
+          "asignaciones": [
+            {
+              "incidencia": "I01",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I02",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I03",
+              "tecnico": "Tecnico de Prueba 03",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I04",
+              "tecnico": "Tecnico de Prueba 07",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I05",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I06",
+              "tecnico": "Tecnico de Prueba 04",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I07",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I08",
+              "tecnico": "Tecnico de Prueba 05",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I09",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I10",
+              "tecnico": "Tecnico de Prueba 06",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I11",
+              "tecnico": "Tecnico de Prueba 01",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            },
+            {
+              "incidencia": "I12",
+              "tecnico": "Tecnico de Prueba 02",
+              "fecha": "2026-10-01",
+              "hora": "08:00",
+              "espera_h": 0.0
+            }
+          ],
+          "cargas": [
+            {
+              "technician": "Tecnico de Prueba 01",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 02",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 03",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 04",
+              "current": 0,
+              "projected": 1
+            },
+            {
+              "technician": "Tecnico de Prueba 05",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 06",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 07",
+              "current": 0,
+              "projected": 2
+            },
+            {
+              "technician": "Tecnico de Prueba 08",
+              "current": 0,
+              "projected": 0
+            },
+            {
+              "technician": "Tecnico de Prueba 09",
+              "current": 0,
+              "projected": 0
+            }
+          ],
+          "asignaciones_en_mismo_horario": 5,
+          "tecnicos_repetidos_mismo_horario": [
+            "Tecnico de Prueba 01",
+            "Tecnico de Prueba 02",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ]
+        }
+      ],
+      "generaciones_ejecutadas": 80,
+      "incluye_tecnico_ausente_08": false
+    },
+    {
+      "modalidad": "equipos_incidencias",
+      "ejecucion": 1,
+      "inicio_real": "2026-11-09T10:11:37-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 48,
+        "generations": 80,
+        "mutation_percent": 15,
+        "crossover_percent": 85,
+        "random_seed": 1001,
+        "incidencia": "I01",
+        "fecha_hora_escenario": "2026-10-02 10:30",
+        "ocupacion_sintetica": "Tecnicos 01 y 02 10:00-12:00"
+      },
+      "tiempo_calculo_ms": 403.733,
+      "candidatos_compatibles": 6,
+      "alternativas": [
+        {
+          "puntuacion": 85.6,
+          "objetivos": [
+            14.400000000000006,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "puntuacion": 85.08,
+          "objetivos": [
+            14.920000000000002,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "puntuacion": 85.08,
+          "objetivos": [
+            14.920000000000002,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 07"
+          ]
+        }
+      ],
+      "generaciones_ejecutadas": 80
+    },
+    {
+      "modalidad": "equipos_incidencias",
+      "ejecucion": 2,
+      "inicio_real": "2026-11-09T10:11:38-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 48,
+        "generations": 80,
+        "mutation_percent": 15,
+        "crossover_percent": 85,
+        "random_seed": 1002,
+        "incidencia": "I01",
+        "fecha_hora_escenario": "2026-10-02 10:30",
+        "ocupacion_sintetica": "Tecnicos 01 y 02 10:00-12:00"
+      },
+      "tiempo_calculo_ms": 391.743,
+      "candidatos_compatibles": 6,
+      "alternativas": [
+        {
+          "puntuacion": 85.6,
+          "objetivos": [
+            14.400000000000006,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "puntuacion": 85.08,
+          "objetivos": [
+            14.920000000000002,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "puntuacion": 85.08,
+          "objetivos": [
+            14.920000000000002,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 07"
+          ]
+        }
+      ],
+      "generaciones_ejecutadas": 80
+    },
+    {
+      "modalidad": "equipos_incidencias",
+      "ejecucion": 3,
+      "inicio_real": "2026-11-09T10:11:38-04:00",
+      "escenario": "octubre de 2026 (entrada del algoritmo; no reloj del sistema)",
+      "configuracion": {
+        "population_size": 48,
+        "generations": 80,
+        "mutation_percent": 15,
+        "crossover_percent": 85,
+        "random_seed": 1003,
+        "incidencia": "I01",
+        "fecha_hora_escenario": "2026-10-02 10:30",
+        "ocupacion_sintetica": "Tecnicos 01 y 02 10:00-12:00"
+      },
+      "tiempo_calculo_ms": 367.779,
+      "candidatos_compatibles": 6,
+      "alternativas": [
+        {
+          "puntuacion": 85.6,
+          "objetivos": [
+            14.400000000000006,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 06",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "puntuacion": 85.08,
+          "objetivos": [
+            14.920000000000002,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 05",
+            "Tecnico de Prueba 07"
+          ]
+        },
+        {
+          "puntuacion": 85.08,
+          "objetivos": [
+            14.920000000000002,
+            1.0
+          ],
+          "lider": "Tecnico de Prueba 03",
+          "miembros": [
+            "Tecnico de Prueba 03",
+            "Tecnico de Prueba 07"
+          ]
+        }
+      ],
+      "generaciones_ejecutadas": 80
+    }
+  ],
+  "configuraciones_persistidas_en_base_prueba": {
+    "asignacion_solicitudes_y_equipos": {
+      "population_size": 40,
+      "generations": 100,
+      "mutation_percent": 10,
+      "crossover_percent": 80
+    },
+    "asignacion_equipos_incidencias": {
+      "population_size": 48,
+      "generations": 80,
+      "mutation_percent": 15,
+      "crossover_percent": 85
+    },
+    "historial_incidencias_guardado": 3,
+    "ids_historial": [
+      "d9163055-7dbb-40f0-b849-2e36dc363a16",
+      "46c575be-9732-4eb1-9d29-fae5b2b65709",
+      "84b49ee9-5066-4045-bba3-275e155d8381"
+    ]
+  },
+  "verificacion_de_horarios": {
+    "ausencia_sintetica": "Tecnico de Prueba 08; vacaciones 2026-10-01 a 2026-11-01; perfil disponible activado",
+    "trabajo_ocupado": "Tecnicos 01 y 02, 2026-10-02 10:00-12:00",
+    "m3_colisiones_por_alternativa": "registradas en cada alternativa; misma hora no equivale a duraci?n conocida"
+  }
+}

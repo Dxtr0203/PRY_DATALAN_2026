@@ -1,0 +1,36 @@
+{
+  "fecha_ejecucion": "2026-11-09",
+  "rol": "comercial ficticio",
+  "opciones_visibles_en_formulario": [
+    "Instalaci?n Punto a Punto",
+    "Instalaci?n Punto Multipunto",
+    "Instalaci?n Eventual"
+  ],
+  "etiquetas_mp_pm_probadas": [
+    {
+      "id": "S21",
+      "etiqueta_origen": "MP",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Selecciona un tipo de solicitud v?lido."
+    },
+    {
+      "id": "S22",
+      "etiqueta_origen": "MP",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Selecciona un tipo de solicitud v?lido."
+    },
+    {
+      "id": "S23",
+      "etiqueta_origen": "PM",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Selecciona un tipo de solicitud v?lido."
+    },
+    {
+      "id": "S24",
+      "etiqueta_origen": "PM",
+      "resultado": "BLOQUEADA",
+      "mensaje_obtenido": "Selecciona un tipo de solicitud v?lido."
+    }
+  ],
+  "filas_persistidas": 0
+}

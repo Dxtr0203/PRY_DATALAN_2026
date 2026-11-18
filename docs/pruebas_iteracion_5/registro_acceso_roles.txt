@@ -1,0 +1,11 @@
+﻿DATABASE=datalan_it5_test@127.0.0.1:55439
+it5.admin|admin|302|/|PASS
+it5.comercial|comercial|302|/comercial/|PASS
+it5.planta|planta_encargado|302|/planta-tecnica/encargado/|PASS
+it5.sistemas|sistemas_encargado|302|/sistemas/|PASS
+it5.soporte|soporte_sistemas|302|/sistemas/soporte/|PASS
+it5.tecnico1|tecnico|302|/planta-tecnica/tecnico/|PASS
+it5.tecnico2|tecnico|302|/planta-tecnica/tecnico/|PASS
+it5.tecnico3|tecnico|302|/planta-tecnica/tecnico/|PASS
+commercial_forbidden_systems_incidents| 302 /acceso-denegado/ PASS
+

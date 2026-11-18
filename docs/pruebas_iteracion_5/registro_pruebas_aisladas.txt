@@ -1,0 +1,109 @@
+﻿..............................E..................................E...............F..............................................
+======================================================================
+ERROR: test_eventual_inspection_deadline_uses_commercial_end_date (DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_inspection_deadline_uses_commercial_end_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\contrib\messages\api.py", line 27, in add_message
+    messages = request._messages
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute '_messages'
+System.Management.Automation.RemoteException
+During handling of the above exception, another exception occurred:
+System.Management.Automation.RemoteException
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\unittest\mock.py", line 1432, in patched
+    return func(*newargs, **newkeywargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\test_optimization_service.py", line 4411, in test_eventual_inspection_deadline_uses_commercial_end_date
+    response = workflow(request, 'tecnico', 'technician_work')
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\views\decorators\cache.py", line 79, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\views.py", line 62, in wrapped
+    return view(request, *args, **kwargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\views.py", line 2620, in workflow
+    messages.error(
+    ~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+        f'La fecha tentativa para el {point_label.lower()} no puede ser anterior a hoy.',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\contrib\messages\api.py", line 121, in error
+    add_message(
+    ~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<3 lines>...
+        fail_silently=fail_silently,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\contrib\messages\api.py", line 35, in add_message
+    raise MessageFailure(
+    ...<2 lines>...
+    )
+django.contrib.messages.api.MessageFailure: You cannot add messages without installing django.contrib.messages.middleware.MessageMiddleware
+System.Management.Automation.RemoteException
+======================================================================
+ERROR: test_plant_technician_sends_tentative_inspection_details_to_assigned_support (DATALAN.test_optimization_service.GeneticOptimizationTests.test_plant_technician_sends_tentative_inspection_details_to_assigned_support)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\contrib\messages\api.py", line 27, in add_message
+    messages = request._messages
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute '_messages'
+System.Management.Automation.RemoteException
+During handling of the above exception, another exception occurred:
+System.Management.Automation.RemoteException
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\unittest\mock.py", line 1432, in patched
+    return func(*newargs, **newkeywargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\test_optimization_service.py", line 3992, in test_plant_technician_sends_tentative_inspection_details_to_assigned_support
+    response = workflow(request, 'tecnico')
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\views\decorators\cache.py", line 79, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\views.py", line 62, in wrapped
+    return view(request, *args, **kwargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\views.py", line 2620, in workflow
+    messages.error(
+    ~~~~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+        f'La fecha tentativa para el {point_label.lower()} no puede ser anterior a hoy.',
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\contrib\messages\api.py", line 121, in error
+    add_message(
+    ~~~~~~~~~~~^
+        request,
+        ^^^^^^^^
+    ...<3 lines>...
+        fail_silently=fail_silently,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Dxtr\Desktop\DATALAN\venv\Lib\site-packages\django\contrib\messages\api.py", line 35, in add_message
+    raise MessageFailure(
+    ...<2 lines>...
+    )
+django.contrib.messages.api.MessageFailure: You cannot add messages without installing django.contrib.messages.middleware.MessageMiddleware
+System.Management.Automation.RemoteException
+======================================================================
+FAIL: test_systems_incidents_page_shows_interactive_support_reports (DATALAN.test_optimization_service.GeneticOptimizationTests.test_systems_incidents_page_shows_interactive_support_reports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\unittest\mock.py", line 1432, in patched
+    return func(*newargs, **newkeywargs)
+  File "C:\Users\Dxtr\Desktop\DATALAN\DATALAN\DATALAN\test_optimization_service.py", line 1843, in test_systems_incidents_page_shows_interactive_support_reports
+    self.assertContains(response, 'REPORTADO POR:')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : Couldn't find 'REPORTADO POR:' in the following response
+b'\n<!doctype html>\n<html lang="es">\n<head>\n    <meta charset="utf-8">\n    <meta name="viewport" content="width=device-width, initial-scale=1">\n    <title>Encargado de Sistemas | DATALAN</title>\n    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n    <link rel="stylesheet" href="/static/css/app.css">\n    <link rel="stylesheet" href="/static/css/commercial-status-colors.css?v=20261026-technician-stage-results">\n    <link rel="stylesheet" href="/static/css/plant-register.css?v=20261027-proposal-error-dialog">\n    <link rel="stylesheet" href="/static/css/incident-workflow.css?v=20261026-support-approved-date-time-row">\n    <link rel="stylesheet" href="/static/css/incident-modal-responsive.css">\n</head>\n<body class="" data-workflow-updates-url="/api/estado-flujo/">\n    \n\n    <div class="app"><aside class="sidebar" id="sidebar">\n    <a class="brand" href="/sistemas/"><span class="brand-mark">D</span><span>DATALAN</span></a>\n    <div class="sidebar-label">Administraci\xc3\xb3n</div>\n    <nav class="side-nav" aria-label="Navegaci\xc3\xb3n principal">\n        <div class="side-nav-item"><a class="side-link " href="/sistemas/"><span class="side-icon">\xe2\x8c\x82</span><span>INICIO</span></a></div><div class="side-nav-item"><a class="side-link " href="/sistemas/solicitudes/"><span class="side-icon">\xe2\x97\x8c</span><span>SOLICITUDES</span><span class="side-chevron">\xe2\x80\xba</span></a></div><div class="side-nav-item"><a class="side-link active" href="/sistemas/incidencias/"><span class="side-icon">!</span><span>INCIDENCIAS</span><span class="side-chevron">\xe2\x8c\x84</span></a><div class="side-subnav"><a class="side-sublink " href="/sistemas/incidencias/optimizacion/"><span class="side-subicon">\xe2\x86\x97</span><span>OPTIMIZACI\xc3\x93N</span></a></div></div><div class="side-nav-item"><a class="side-link " href="/sistemas/registro/"><span class="side-icon">\xe2\x96\xa4</span><span>REGISTRO</span></a></div><div class="side-nav-item"><a class="side-link " href="/sistemas/soporte-personal/"><span class="side-icon">\xe2\x99\xa7</span><span>SOPORTE</span></a></div>\n    </nav>\n    <div class="sidebar-footer"><div class="user-mini"><span class="avatar">EN</span><span><b>Encargado Sistemas</b><small>Encargado de Sistemas</small></span></div><a class="logout-link" href="/logout/">Salir <span>\xe2\x86\x97</span></a></div>\n</aside>\n<main class="main"><header class="topbar"><button class="menu-toggle" type="button" aria-label="Abrir men\xc3\xba" data-sidebar-toggle>\xe2\x98\xb0</button><div class="crumb">DATALAN <span>/</span> <strong>Encargado de Sistemas</strong></div><div class="top-user"><span class="status-dot"></span>Encargado Sistemas<span class="role-chip">Encargado de Sistemas</span></div></header>\n<section class="content">\n<script id="request-schedule-details" type="application/json">{"CITE-SUPPORT-REPORTED-INCIDENT": {"port_type": "-", "installation_schedule": "Sin fecha de instalaci\\u00f3n", "priority": "-"}}</script>\n<script id="workflow-stage-statuses" type="application/json">{"CITE-SUPPORT-REPORTED-INCIDENT": "CONCLUIDO"}</script>\n<div class="heading"><div><p class="eyebrow">Centro operativo \xc2\xb7 Encargado de Sistemas</p><h1>INCIDENCIAS</h1><p class="subtitle">Reporta problemas de servicio en enlaces PP/MP que ya fueron instalados y entregados.</p></div></div>\n\n<section class="panel service-incident-page">\n  <div class="panel-header service-incident-page-header">\n    <div><span class="service-incident-kicker">SEGUIMIENTO \xc2\xb7 REPORTES DE SOPORTE</span><h2>Incidencias reportadas por Soporte</h2><p>Consulta el detalle y avance de cada incidencia registrada por el personal de Soporte de Sistemas.</p></div>\n    <span class="incident-electric-pill">1 INCIDENCIAS</span>\n  </div>\n  <div class="service-incident-reporter-list">\n    <article class="service-incident-reporter-card service-incident-review-card" tabindex="0" role="button" aria-haspopup="dialog" data-support-service-incident-card data-incident-client="Cliente con incidencia" data-incident-status="PENDIENTE DE ASIGNACI\xc3\x93N">\n  <div class="service-incident-reporter-heading">\n    <div><small>SOLICITANTE</small><strong>Cliente con incidencia</strong><small>FECHA Y HORA REGISTRADO: 15/10/2026 09:15</small></div>\n    <span class="service-incident-live-status">PENDIENTE DE ASIGNACI\xc3\x93N</span>\n  </div>\n  <div class="service-incident-reported-description"><b>PROBLEMA REPORTADO</b><p>El enlace se interrumpe durante la tarde.</p></div>\n  <div data-support-incident-details hidden>\n    <header class="support-incident-modal-heading">\n      <span class="service-incident-kicker">CITE-SUPPORT-REPORTED-INCIDENT \xc2\xb7 PP \xc2\xb7 Instalaci\xc3\xb3n Punto a Punto</span>\n      <h3>Cliente con incidencia</h3>\n      <p>Reportada 15/10/2026 09:15 \xc2\xb7 Estado: PENDIENTE DE ASIGNACI\xc3\x93N</p>\n      \n      <p>REPORT\xc3\x93: Ana Soporte \xc2\xb7 Soporte de Sistemas</p>\n      <section class="incident-stage-result"><b>DETALLE DEL REPORTE</b><span>El enlace se interrumpe durante la tarde.</span></section>\n      \n      \n    </header>\n    <div class="support-incident-stages">\n      <details class="support-incident-stage" open>\n        <summary><span>1. ATENCI\xc3\x93N DE INCIDENCIA</span><b>ENVIADA</b></summary>\n        <div class="support-incident-stage-body">\n          <section class="incident-stage-result">\n            <b>DETALLE DE ATENCI\xc3\x93N</b>\n            <span>Horario tentativo: 2026-10-16 \xc2\xb7 10:00<br>Esperando el cronograma tentativo del t\xc3\xa9cnico.</span>\n          </section>\n          \n            \n            <form method="post" class="incident-approval-form" data-incident-client="Cliente con incidencia" data-incident-cite="CITE-SUPPORT-REPORTED-INCIDENT" data-incident-description="El enlace se interrumpe durante la tarde.">\n  <input type="hidden" name="csrfmiddlewaretoken" value="T8tK50gmR4WBZmYj4FY7AvLWmO16JtbNblfGTBnfouT8MZxi87Zu3DyaY4j1CftR"><input type="hidden" name="approve_incident_schedule" value="1"><input type="hidden" name="cite" value="CITE-SUPPORT-REPORTED-INCIDENT"><input type="hidden" name="incident_id" value="support-reported-1"><input type="hidden" name="stage" value="attention">\n  <div><b>APROBAR HORARIO DE ATENCI\xc3\x93N</b><span>Propuesto: 2026-10-16 \xc2\xb7 10:00</span></div>\n  <div class="support-incident-approved-schedule">\n    <label>Fecha aprobada<input type="date" name="approved_date" value="2026-10-16" required></label>\n    <label>Hora aprobada<input type="time" name="approved_time" value="10:00" required></label>\n  </div>\n  \n  <div class="request-modal-actions support-work-actions support-incident-approval-actions">\n    <button class="button" type="submit">APROBAR Y ENVIAR AL T\xc3\x89CNICO</button>\n  </div>\n</form>\n\n            \n          \n        </div>\n      </details>\n      <details class="support-incident-stage" >\n        <summary><span>2. SOLUCI\xc3\x93N DE INCIDENCIA</span><b>PENDIENTE</b></summary>\n        <div class="support-incident-stage-body">\n          <section class="incident-stage-result">\n            <b>DETALLE DE SOLUCI\xc3\x93N</b>\n            <span>El t\xc3\xa9cnico registrar\xc3\xa1 la soluci\xc3\xb3n despu\xc3\xa9s de completar la atenci\xc3\xb3n.</span>\n          </section>\n        </div>\n      </details>\n      <details class="support-incident-stage" >\n        <summary><span>3. CONCLUSI\xc3\x93N</span><b>PENDIENTE</b></summary>\n        <div class="support-incident-stage-body">\n          <section class="incident-stage-result">\n            <b>CONCLUSI\xc3\x93N DEL T\xc3\x89CNICO</b>\n            <span>La conclusi\xc3\xb3n estar\xc3\xa1 disponible despu\xc3\xa9s de registrar la soluci\xc3\xb3n.</span>\n          </section>\n          \n            \n          \n        </div>\n      </details>\n    </div>\n  </div>\n</article>\n\n  </div>\n</section>\n<section class="panel service-incident-page">\n  <div class="panel-header service-incident-page-header">\n    <div><span class="service-incident-kicker">CENTRO DE ALERTAS \xc2\xb7 SOPORTE DE SERVICIO</span><h2>Reporte de incidencias</h2><p>Registra y sigue problemas reportados en enlaces operativos.</p></div>\n    <button class="button danger-button service-incident-launch" type="button" data-incident-modal-open>! &nbsp; INCIDENCIA REPORTADA</button>\n  </div>\n  <div class="service-incident-reporter-list" data-live-service-incidents>\n      <div class="service-incident-list-heading"><div><h3>Mis reportes</h3><p>Selecciona un reporte para revisar los trabajos de atenci\xc3\xb3n, soluci\xc3\xb3n y conclusi\xc3\xb3n.</p></div><span data-live-service-incidents-total>0</span></div>\n    <div class="service-incident-live-cards">\n<div class="service-incident-empty"><span aria-hidden="true">\xe2\x9c\x93</span><strong>A\xc3\xban no has enviado reportes</strong><p>Presiona \xe2\x80\x9cIncidencia reportada\xe2\x80\x9d para buscar un cliente y describir el problema.</p></div>\n\n</div>\n  </div>\n</section>\n<div class="request-modal support-service-incident-modal" data-support-service-incident-modal hidden>\n  <div class="request-dialog support-service-incident-dialog" role="dialog" aria-modal="true" aria-labelledby="support-service-incident-title">\n    <button type="button" class="request-modal-close" data-support-service-incident-close aria-label="Cerrar">&times;</button>\n    <span class="eyebrow">SOPORTE \xc2\xb7 DETALLE DE INCIDENCIA</span>\n    <h2 id="support-service-incident-title" data-support-service-incident-title></h2>\n    <div class="support-service-incident-content" data-support-service-incident-content></div>\n  </div>\n</div>\n\n<div class="request-modal support-team-proposal-modal" data-incident-proposal-modal hidden data-proposal-url="/api/propuesta-equipo-incidencia/">\n  <div class="request-dialog support-team-proposal-dialog" role="dialog" aria-modal="true" aria-labelledby="incident-proposal-title">\n    <button type="button" class="request-modal-close" data-incident-proposal-close aria-label="Cerrar">&times;</button>\n    <span class="eyebrow">SOPORTE \xc2\xb7 PROPUESTA PARA INCIDENCIA</span>\n    <h2 id="incident-proposal-title">Mejores equipos para la atenci\xc3\xb3n</h2>\n    <p class="support-team-proposal-intro" data-incident-proposal-status role="status" aria-live="polite"></p>\n    <div class="support-team-proposal-results" data-incident-proposal-results></div>\n    <div class="request-modal-actions support-team-proposal-actions">\n      <button type="button" class="button secondary" data-incident-proposal-close>Cerrar</button>\n    </div>\n  </div>\n</div>\n<div class="service-incident-modal" data-incident-modal hidden>\n  <section class="service-incident-dialog" role="dialog" aria-modal="true" aria-labelledby="service-incident-dialog-title">\n    <header class="service-incident-dialog-header">\n      <div><span class="service-incident-kicker">NUEVO REPORTE \xc2\xb7 SERVICIOS INSTALADOS</span><h2 id="service-incident-dialog-title">Selecciona el cliente afectado</h2><p>Filtra la cartera y selecciona el enlace para registrar su incidencia.</p></div>\n      <button class="request-modal-close" type="button" data-incident-modal-close aria-label="Cerrar">&times;</button>\n    </header>\n    <div class="service-incident-filters" aria-label="Filtros de clientes">\n      <label>TIPO DE CLIENTE<select data-incident-filter-kind><option value="">TODOS</option><option value="CLIENTE">CLIENTES</option><option value="ENTIDAD">ENTIDADES P\xc3\x9aBLICAS / PRIVADAS</option></select></label>\n      <label>VELOCIDAD<select data-incident-filter-speed><option value="">TODAS</option><option value="100mbps">100 Mbps</option><option value="1gbps">1 Gbps</option><option value="10gbps">10 Gbps</option></select></label>\n      <label>TIPO DE ENLACE<select data-incident-filter-link><option value="">PP / MP</option><option value="PP">PP</option><option value="MP">MP</option></select></label>\n      <label class="service-incident-search"><span>BUSCAR CLIENTE</span><div><input type="search" data-incident-search placeholder="Cliente, empresa o CITE" autocomplete="off"><span aria-hidden="true">\xe2\x8c\x95</span></div></label>\n    </div>\n    <div class="service-incident-results-count" data-incident-results-count aria-live="polite"></div>\n    <div class="service-incident-candidates" data-incident-candidates>\n      \n      <div class="service-incident-empty"><span aria-hidden="true">\xe2\x9c\x93</span><strong>No hay clientes habilitados para reporte</strong><p>Aqu\xc3\xad aparecer\xc3\xa1n los clientes PP y MP con instalaci\xc3\xb3n y conclusi\xc3\xb3n aprobadas.</p></div>\n      \n      <div class="service-incident-empty" data-incident-no-results hidden><span aria-hidden="true">\xe2\x8c\x95</span><strong>No encontramos clientes con esos filtros</strong><p>Cambia los filtros o prueba con otra b\xc3\xbasqueda.</p></div>\n    </div>\n    <footer class="service-incident-dialog-footer"><span>0 servicios entregados</span><button class="button secondary" type="button" data-incident-modal-close>Cerrar</button></footer>\n  </section>\n</div>\n\n</section></main></div>\n    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>\n    \n    <script src="/static/js/app.js?v=20261026-technician-stage-results"></script>\n</body>\n</html>\n'
+System.Management.Automation.RemoteException
+----------------------------------------------------------------------
+Ran 128 tests in 1.253s
+System.Management.Automation.RemoteException
+FAILED (failures=1, errors=2)
+Found 128 test(s).
+System check identified no issues (0 silenced).

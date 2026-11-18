@@ -1,0 +1,26 @@
+{
+  "dataset_id": "DATALAN-IT5-SIM-20261027-A",
+  "description": "Fixture de pruebas, no relacionado con clientes ni personal reales. Las cuentas se crean únicamente en datalan_it5_test.",
+  "accounts": [
+    {"username": "it5.admin", "role": "admin", "full_name": "Administrador Simulado IT5"},
+    {"username": "it5.comercial", "role": "comercial", "full_name": "Comercial Simulada IT5"},
+    {"username": "it5.planta", "role": "planta_encargado", "full_name": "Encargada de Planta Simulada IT5"},
+    {"username": "it5.sistemas", "role": "sistemas_encargado", "full_name": "Encargado de Sistemas Simulado IT5"},
+    {"username": "it5.soporte", "role": "soporte_sistemas", "full_name": "Soporte Simulado IT5"},
+    {"username": "it5.tecnico1", "role": "tecnico", "full_name": "Técnico Simulado IT5 Uno"},
+    {"username": "it5.tecnico2", "role": "tecnico", "full_name": "Técnico Simulado IT5 Dos"},
+    {"username": "it5.tecnico3", "role": "tecnico", "full_name": "Técnico Simulado IT5 Tres"}
+  ],
+  "cases": [
+    {"cite": "CITE-IT5-PER-001", "type": "Instalación Punto a Punto", "applicant": "Cliente Ficticio IT5 Permanente"},
+    {"cite": "CITE-IT5-EVE-001", "type": "Instalación Eventual", "applicant": "Cliente Ficticio IT5 Eventual"},
+    {"cite": "CITE-IT5-INC-001", "type": "Instalación Punto a Punto", "applicant": "Cliente Ficticio IT5 Incidencia", "incident_ids": ["INC-IT5-CAMPO-001", "INC-IT5-REMOTO-001", "INC-IT5-CONTINUA-001"]},
+    {"cite": "CITE-IT5-OBS-001", "type": "Instalación Punto a Punto", "applicant": "Cliente Ficticio IT5 Observación Comercial"}
+  ],
+  "relative_dates": {
+    "eventual_start_offset_days": 1,
+    "eventual_end_offset_days": 2,
+    "permanent_installation_offset_days": 1,
+    "fixed_incident_schedule_offset_days": 1
+  }
+}

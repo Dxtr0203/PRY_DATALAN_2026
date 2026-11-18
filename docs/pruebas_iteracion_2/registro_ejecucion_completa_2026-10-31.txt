@@ -1,0 +1,63 @@
+Fecha y hora local: 2026-10-31T09:33:31-04:00
+Base PostgreSQL de prueba exclusiva: datalan_it2_test (creada y destruida por Django).
+El esquema operativo minimo se crea dentro de esa base desechable; no se usa la base datalan.
+Comando reproducible desde la raiz del repositorio:
+$env:DJANGO_SETTINGS_MODULE='DATALAN.settings_iteration2_test'
+Push-Location DATALAN
+..\venv\Scripts\python.exe manage.py test DATALAN.test_iteration2_postgresql DATALAN.test_optimization_service.GeneticOptimizationTests.test_installation_schedule_derives_priority_from_installation_date DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_schedule_uses_start_date_and_requires_valid_range DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_decision_supports_ajax_without_redirect DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_final_approval_overrides_an_area_rejection DATALAN.test_optimization_service.GeneticOptimizationTests.test_delivery_stages_go_from_inspection_to_installation_and_conclusion DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_installation_can_only_finish_after_approved_removal DATALAN.test_optimization_service.GeneticOptimizationTests.test_incident_candidates_require_completed_non_eventual_pp_or_mp DATALAN.test_optimization_service.GeneticOptimizationTests.test_operational_stage_display_tracks_regular_and_eventual_progress DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_request_saves_derived_priority_port_and_dates --verbosity 2
+Pop-Location
+----- SALIDA ORIGINAL DE LA EJECUCION -----
+Creating test database for alias 'default' ('datalan_it2_test')...
+
+Found 16 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial...test_commercial_approval_preserves_evaluations_and_resolution_note (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_approval_preserves_evaluations_and_resolution_note) ... ok
+test_commercial_rejection_is_persisted_and_blocks_execution (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_commercial_rejection_is_persisted_and_blocks_execution) ... ok
+test_eventual_service_stays_open_until_removal_and_final_review (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_eventual_service_stays_open_until_removal_and_final_review) ... ok
+test_installation_schedule_submission_approval_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_installation_schedule_submission_approval_and_reload) ... ok
+test_permanent_and_eventual_registration_persist_and_reload (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_and_eventual_registration_persist_and_reload) ... ok
+test_permanent_conclusion_requires_support_approval_for_active_link (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_permanent_conclusion_requires_support_approval_for_active_link) ... ok
+test_registration_rejects_missing_fields_and_checks_priority_boundaries (DATALAN.test_iteration2_postgresql.Iteration2PostgreSQLTests.test_registration_rejects_missing_fields_and_checks_priority_boundaries) ... ok
+test_installation_schedule_derives_priority_from_installation_date (DATALAN.test_optimization_service.GeneticOptimizationTests.test_installation_schedule_derives_priority_from_installation_date) ... ok
+test_eventual_schedule_uses_start_date_and_requires_valid_range (DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_schedule_uses_start_date_and_requires_valid_range) ... ok
+test_commercial_decision_supports_ajax_without_redirect (DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_decision_supports_ajax_without_redirect) ... ok
+test_commercial_final_approval_overrides_an_area_rejection (DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_final_approval_overrides_an_area_rejection) ... ok
+test_delivery_stages_go_from_inspection_to_installation_and_conclusion (DATALAN.test_optimization_service.GeneticOptimizationTests.test_delivery_stages_go_from_inspection_to_installation_and_conclusion) ... ok
+test_eventual_installation_can_only_finish_after_approved_removal (DATALAN.test_optimization_service.GeneticOptimizationTests.test_eventual_installation_can_only_finish_after_approved_removal) ... ok
+test_incident_candidates_require_completed_non_eventual_pp_or_mp (DATALAN.test_optimization_service.GeneticOptimizationTests.test_incident_candidates_require_completed_non_eventual_pp_or_mp) ... ok
+test_operational_stage_display_tracks_regular_and_eventual_progress (DATALAN.test_optimization_service.GeneticOptimizationTests.test_operational_stage_display_tracks_regular_and_eventual_progress) ... ok
+test_commercial_request_saves_derived_priority_port_and_dates (DATALAN.test_optimization_service.GeneticOptimizationTests.test_commercial_request_saves_derived_priority_port_and_dates) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.375s
+
+OK
+Destroying test database for alias 'default' ('datalan_it2_test')...
+
+ OK
+System check identified no issues (0 silenced).
+
+RETURN_CODE=0

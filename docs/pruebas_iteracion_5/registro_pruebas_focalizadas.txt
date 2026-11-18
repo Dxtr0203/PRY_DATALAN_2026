@@ -1,0 +1,7 @@
+﻿..........
+----------------------------------------------------------------------
+Ran 10 tests in 0.162s
+System.Management.Automation.RemoteException
+OK
+Found 10 test(s).
+System check identified no issues (0 silenced).

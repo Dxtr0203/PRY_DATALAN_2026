@@ -1,0 +1,17 @@
+﻿usuario_prueba,nombre_ficticio,rol,correo_de_prueba
+tesis_tecnico_09,Tecnico de Prueba 09,tecnico,tesis_tecnico_09@example.test
+tesis_tecnico_08,Tecnico de Prueba 08,tecnico,tesis_tecnico_08@example.test
+tesis_tecnico_07,Tecnico de Prueba 07,tecnico,tesis_tecnico_07@example.test
+tesis_tecnico_06,Tecnico de Prueba 06,tecnico,tesis_tecnico_06@example.test
+tesis_tecnico_05,Tecnico de Prueba 05,tecnico,tesis_tecnico_05@example.test
+tesis_tecnico_04,Tecnico de Prueba 04,tecnico,tesis_tecnico_04@example.test
+tesis_tecnico_03,Tecnico de Prueba 03,tecnico,tesis_tecnico_03@example.test
+tesis_tecnico_02,Tecnico de Prueba 02,tecnico,tesis_tecnico_02@example.test
+tesis_tecnico_01,Tecnico de Prueba 01,tecnico,tesis_tecnico_01@example.test
+tesis_soporte_03,Soporte de Prueba 03,soporte_sistemas,tesis_soporte_03@example.test
+tesis_soporte_02,Soporte de Prueba 02,soporte_sistemas,tesis_soporte_02@example.test
+tesis_soporte_01,Soporte de Prueba 01,soporte_sistemas,tesis_soporte_01@example.test
+tesis_sistemas,Coordinaci?n Sistemas de Prueba,sistemas_encargado,tesis_sistemas@example.test
+tesis_planta,Coordinacion Planta de Prueba,planta_encargado,tesis_planta@example.test
+tesis_comercial,Comercial de Prueba,comercial,tesis_comercial@example.test
+tesis_admin,Administraci?n de Prueba,admin,tesis_admin@example.test

@@ -1,0 +1,10 @@
+{
+  "fecha_verificacion": "2026-11-09T17:16:06.800360-04:00",
+  "base_datos": "datalan",
+  "ruta": "/comercial/pendientes/",
+  "status_code": 200,
+  "tarjetas_de_solicitudes": 0,
+  "solicitudes_restantes": 0,
+  "clientes_ficticios_restantes": 0,
+  "incidencias_restantes": 0
+}
